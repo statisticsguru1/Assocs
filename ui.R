@@ -1,5 +1,5 @@
-#pkgss = c("Rgraphviz","shiny","tidyverse","arules","arulesViz","colorspace","visNetwork","plotly","igraph","shinythemes","readxl", "DT")
-#lapply(pkgss,require,character.only=TRUE)
+pkgss = c("Rgraphviz","shiny","tidyverse","arules","arulesViz","colorspace","visNetwork","plotly","igraph","shinythemes","readxl", "DT")
+lapply(pkgss,require,character.only=TRUE)
 shinyUI(
 navbarPage("Association Rule Miner",theme = shinythemes::shinytheme("cerulean"),
            tabPanel("Rules",
