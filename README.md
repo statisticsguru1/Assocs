@@ -17,9 +17,12 @@ To run the application using Shiny, execute the following code in your R environ
       ref = "main"
     )
 
-### Local Installation via RInno
-A local installation package is available through RInno. Follow these steps for the local installation:
+### Cloud based usage
+The cloud version of the app is also accessible [here](https://01943274-57a5-38db-16c2-41fce63bf8cd.share.connect.posit.cloud/)
 
+### Local Installation via RInno (Deprecated version)
+A local installation package is available through RInno. Follow these steps for the local installation:
+s
 1. **Download the installer:**
    - Download the `app.rar` file from [this link](https://1drv.ms/u/s!AmI4LHMH_KkPjRfdkkz4W3-fq-76?e=80IqtT) and save it to a specific location.
    - Extract the folder to your preferred location.
@@ -42,7 +45,7 @@ After installation, you can launch the app by clicking the app icon found among 
 The application consists of two main tabs:
 - **Tab A: Rules**
   - This tab is for loading data, mining rules, and downloading the mined rules.
-- **Tab B: Rules**
+- **Tab B: Graphing**
   - This tab is for graphing the mined rules and downloading the graphs.
 
 ### Mining Rules
