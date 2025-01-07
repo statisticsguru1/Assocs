@@ -1,0 +1,190 @@
+/*Tables*/
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: times;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-table thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: right;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
+
+.styled-table td:contains('TRUE')::before {
+  content: '\2713'; /* Unicode character for a checkmark */
+  color: green; /* Color of the tick */
+  margin-right: 5px; /* Adjust as needed */
+}
+
+/*styled-tableboldlast*/
+.styled-tableboldlast {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: times;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-tableboldlast thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: right;
+}
+
+.styled-tableboldlast th,
+.styled-tableboldlast td {
+    padding: 12px 15px;
+}
+
+.styled-tableboldlast tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-tableboldlast tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-tableboldlast tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+
+.styled-tableboldlast tbody tr:last-child {
+  font-weight: bold;
+  color: black;
+  font-weight: 10px;
+}
+
+
+.styled-tableboldlast tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
+
+
+/*Tables set 2*/
+.styled-tabletick {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: times;
+    min-width: 400px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.styled-tabletick thead tr {
+    background-color: black;
+    color: #ffffff;
+    text-align: right;
+}
+
+.styled-tabletick th,
+.styled-tabletick td {
+    padding: 12px 15px;
+}
+
+.styled-tabletick tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-tabletick tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-tabletick tbody tr:last-of-type {
+    border-bottom: 2px solid black;
+}
+
+.styled-tabletick tbody tr.active-row {
+    font-weight: bold;
+    color: black;
+}
+
+/*tabs*/
+
+/* Custom tab label class */
+.tablabels {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+  height: 0px; 
+  line-height: 0px;
+  padding-top: 0px;
+  padding-bottom:5px;
+}
+
+/* Style the active tab label */
+.tablabels.active {
+  color: #ff0000;
+  font-size: 17px;
+  height: 5px; 
+  line-height: 0px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: black;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+  
+}
+
+#pagination {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.pagination-button {
+  padding: 10px 15px;
+  margin: 0 5px;
+  font-size: 16px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.pagination-button.active {
+  background-color: #0056b3;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #333;
+}
