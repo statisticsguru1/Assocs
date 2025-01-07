@@ -1,13 +1,18 @@
 marketbasketUI<-function(id) {
   ns <- NS(id)
   page_navbar(
-    tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "styles.css")),
+    bg="#000",
+    tags$head(tags$link(rel = "stylesheet", type = "text/css", href = "styles.css"),
+              #tags$script(src = "www/pagination.js")
+              ),
     theme = bslib::bs_theme(version = 5),
     title = "Association Rule Miner",
     nav_panel(title = "Rules",
               page_fillable(
                 layout_sidebar(
                   sidebar = sidebar(
+                    bg="#FAFAFA",
+                    fg="black",
                     fluidRow(offset=1,
                              h4(tags$strong(("Data upload"))),
                              fileInput(ns("file1"), "Choose CSV File",
