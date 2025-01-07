@@ -3,7 +3,7 @@
     "path": "/cloud/project/server.R",
     "project_path": "server.R",
     "type": "r_source",
-    "hash": "4146399611",
+    "hash": "3602675928",
     "contents": "",
     "dirty": false,
     "created": 1736005459415.0,
@@ -12,15 +12,15 @@
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "3,4",
+        "cursorPosition": "3,1",
         "scrollLine": "0"
     },
     "folds": "",
-    "lastKnownWriteTime": 1736250858,
+    "lastKnownWriteTime": 1736251916,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1736250858180,
+    "last_content_update": 1736251916478,
     "read_only": false,
     "read_only_alternatives": []
 }
